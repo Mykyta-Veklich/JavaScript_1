@@ -70,6 +70,10 @@ let end = Number(prompt("Введіть кінцеве число"));
 if (start > end) {
     [start, end] = [end, start];
     console.log("Числа було змінено місцями (некоректна умова)");
+} else {
+    if (isNaN(start) || isNaN(end)) {
+        console.log("Помилка! Введіть тільки числа.")
+    }
 }
 let sum = 0;
 
