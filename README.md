@@ -1,2 +1,2 @@
-# JavaScript_-1
+# JavaScript_1
 Практичне завдання з JavaScript
